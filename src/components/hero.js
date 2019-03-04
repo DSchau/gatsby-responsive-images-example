@@ -21,7 +21,7 @@ export default function Hero() {
         regex:"/desktop.jpg/"
       }) {
         childImageSharp {
-          fluid(maxWidth:500) {
+          fluid(maxWidth:1200) {
             ...GatsbyImageSharpFluid
           }
         }
